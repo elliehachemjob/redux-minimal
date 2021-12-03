@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { statusAction, statusSelector } from "./statusSlice";
 
-export function Counter() {
+export function Status() {
   const status = useSelector(statusSelector);
   const dispatch = useDispatch();
   console.log(status);
